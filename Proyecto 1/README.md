@@ -34,21 +34,21 @@ requirements.txt
 
 En el notebook 1_eda_exploracion.ipynb se realiza:
 
-• Carga del dataset
-• Revisión de dimensiones
-• Inspección de columnas y tipos de datos
-• Resumen estadístico
-• Conteo de valores únicos
-• Identificación de valores faltantes
-• Búsqueda de duplicados
-• Detección de inconsistencias
-• Observación de problemas como:
-    • Columnas en tipo object con números y texto mezclado
-    • Más de 17 tipos diferentes de asientos
-    • 37 valores distintos de combustible
-    • Potencia y cilindrada con formatos incorrectos
-    • Precios con símbolos y rangos
-    • Velocidades y aceleraciones sin estandarizar
+- Carga del dataset
+- Revisión de dimensiones
+- Inspección de columnas y tipos de datos
+- Resumen estadístico
+- Conteo de valores únicos
+- Identificación de valores faltantes
+- Búsqueda de duplicados
+- Detección de inconsistencias
+- Observación de problemas como:
+    - Columnas en tipo object con números y texto mezclado
+    - Más de 17 tipos diferentes de asientos
+    - 37 valores distintos de combustible
+    - Potencia y cilindrada con formatos incorrectos
+    - Precios con símbolos y rangos
+    - Velocidades y aceleraciones sin estandarizar
 
 Conclusión: el dataset requiere una limpieza profunda.
 
@@ -58,12 +58,12 @@ Conclusión: el dataset requiere una limpieza profunda.
 
 En el notebook 2_eda_limpieza.ipynb se aplican los siguientes procesos:
 
-• Renombrado de columnas a nombres limpios
-• Eliminación de símbolos ($, €, cc, hp, “km/h”, etc.)
-• Conversión de columnas numéricas a int o float
-• Normalización de categorías (Ej. Petrol, Diesel, Hybrid)
-• Estandarización de unidades
-• Tratamiento de nulos
+- Renombrado de columnas a nombres limpios
+- Eliminación de símbolos ($, €, cc, hp, “km/h”, etc.)
+- Conversión de columnas numéricas a int o float
+- Normalización de categorías (Ej. Petrol, Diesel, Hybrid)
+- Estandarización de unidades
+- Tratamiento de nulos
 
 Resultado: creación del archivo "dataset_limpio.csv" para poder ver los coches.
 
@@ -73,12 +73,12 @@ Resultado: creación del archivo "dataset_limpio.csv" para poder ver los coches.
 
 En el notebook 3_eda_visualizacion.ipynb se generan:
 
-• Histogramas para analizar la distribución de variables numéricas.
-• Gráficos de barras para comparar marcas, combustibles y tipos de motor.
-• Boxplots para detectar valores extremos y analizar rangos.
-• Scatterplots para estudiar relaciones entre variables como potencia, torque y velocidad.
-• Lineplots para visualizar tendencias generales.
-• Conclusiones basadas en los diagramas.
+- Histogramas para analizar la distribución de variables numéricas.
+- Gráficos de barras para comparar marcas, combustibles y tipos de motor.
+- Boxplots para detectar valores extremos y analizar rangos.
+- Scatterplots para estudiar relaciones entre variables como potencia, torque y velocidad.
+- Lineplots para visualizar tendencias generales.
+- Conclusiones basadas en los diagramas.
 
 
 📌 Conclusiones finales
