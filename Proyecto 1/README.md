@@ -16,17 +16,16 @@ Cada fase se desarrolla en un notebook independiente para mantener un flujo de t
 
 
 📂 Estructura del repositorio
-data/
- ├── dataset_sucio_para_limpieza.csv
- └── dataset_limpio.csv
+- data/
+    - dataset_sucio_para_limpieza.csv
+    - dataset_limpio.csv
+- notebooks/
+    - 1_eda_exploracion.ipynb
+    - 2_eda_limpieza.ipynb
+    - 3_eda_visualizacion.ipynb
 
-notebooks/
- ├── 1_eda_exploracion.ipynb
- ├── 2_eda_limpieza.ipynb
- └── 3_eda_visualizacion.ipynb
-
-README.md
-requirements.txt
+- README.md
+- requirements.txt
 
 
 
